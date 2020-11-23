@@ -1,0 +1,49 @@
+.slider {
+  width: 300%;
+  height: 300px;
+}
+#slide1,
+#slide2,
+#slide3 {
+  width: 33.33333333333333%;
+  height: 100%;
+  text-align: center;
+  float: left;
+}
+#slide1 {
+  background: radial-gradient(
+    circle,
+    rgba(173, 39, 105, 1) 5%,
+    rgba(179, 107, 169, 1) 33%,
+    rgba(209, 126, 62, 1) 100%
+  );
+}
+#slide2 {
+  background: linear-gradient(
+    90deg,
+    rgba(63, 76, 251, 1) 0%,
+    rgba(251, 56, 96, 1) 100%
+  );
+}
+#slide3 {
+  background: radial-gradient(
+    circle,
+    rgba(122, 38, 75, 0.8295693277310925) 23%,
+    rgba(31, 127, 170, 1) 63%
+  );
+}
+.project {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: black;
+  text-decoration: none;
+}
+.project:hover {
+  color: #08eb39;
+}
+#next {
+  right: 30px;
+}
+#prev {
+  left: 30px;
+}
